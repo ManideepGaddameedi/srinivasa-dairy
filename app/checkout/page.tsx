@@ -1,8 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { supabase } from "@/lib/supabase";
-
+import { supabase } from "../../lib/supabase";
 declare global {
   interface Window {
     Razorpay: any;
